@@ -1,3 +1,4 @@
+﻿<<<<<<< HEAD
 ﻿# Agentic AI Contract Amendment System (Azure Hybrid Architecture)
 
 ## Overview
@@ -21,3 +22,4 @@ Hybrid multi-agent system that drafts contract amendments using Ontario + Federa
 
 ## Disclaimer
 For demonstration only. Not legal advice. Includes a *hypothetical* AI disclosure requirement.
+>>>>>>> 671606319ba585b8b706c0b80d74e604d2368e78
