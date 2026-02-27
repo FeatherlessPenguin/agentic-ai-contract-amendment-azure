@@ -1,0 +1,5 @@
+﻿azure-functions
+pydantic
+python-dotenv
+requests
+diff-match-patch

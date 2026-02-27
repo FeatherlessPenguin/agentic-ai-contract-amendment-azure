@@ -1,0 +1,13 @@
+﻿MASTER SERVICES AGREEMENT
+
+1. Definitions
+"Confidential Information" means any non-public information disclosed by either party.
+
+2. Ownership
+All intellectual property created under this Agreement remains with the creating party unless otherwise agreed in writing.
+
+3. Limitation of Liability
+Except for gross negligence or willful misconduct, each party's liability is limited to fees paid in the preceding 12 months.
+
+4. Dispute Resolution
+This Agreement shall be governed by the laws of Ontario and the federal laws of Canada applicable therein.
