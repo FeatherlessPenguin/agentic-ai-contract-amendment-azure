@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contract-ai"
+version = "0.1.0"
+description = "Hybrid multi-agent contract amendment system (Azure MVP)"
+requires-python = ">=3.9"
+dependencies = [
+  "diff-match-patch",
+  "pydantic",
+  "python-dotenv",
+  "requests",
+  "azure-functions"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Redline Comparison</title>
+  <style>
+    :root {
+      --border: #e5e7eb;
+      --bg: #ffffff;
+      --muted: #6b7280;
+      --panel: #f9fafb;
+    }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: #111827;
+    }
+    header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header .title {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0;
+    }
+    header .meta {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+    .wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      padding: 12px;
+    }
+    .panel {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: calc(100vh - 88px);
+    }
+    .panel h2 {
+      margin: 0;
+      padding: 10px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel);
+    }
+    .content {
+      padding: 12px;
+      overflow: auto;
+      font-size: 13px;
+      line-height: 1.5;
+      white-space: normal;
+      word-wrap: break-word;
+    }
+    /* Highlights */
+    del {
+      background: #fee2e2;
+      text-decoration: line-through;
+      padding: 0 1px;
+      border-radius: 3px;
+    }
+    ins {
+      background: #dcfce7;
+      text-decoration: none;
+      padding: 0 1px;
+      border-radius: 3px;
+    }
+    /* Mobile */
+    @media (max-width: 900px) {
+      .wrap {
+        grid-template-columns: 1fr;
+      }
+      .panel {
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title">Contract Redline (Deterministic Diff)</div>
+    <div class="meta">Generated 2026-02-28 15:35 UTC</div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel">
+      <h2>Original</h2>
+      <div class="content">MASTER SERVICES AGREEMENT<br/><br/>3. Limitation of Liability<br/>Except for gross negligence or willful misconduct, each party&#x27;s liability is limited to fees paid in the preceding 12 months.<br/></div>
+    </section>
+    <section class="panel">
+      <h2>Amended</h2>
+      <div class="content">MASTER SERVICES AGREEMENT<br/><br/>3. Limitation of Liability<br/>Except for gross negligence or willful misconduct, each party&#x27;s liability is limited to fees paid in the preceding 12 months.<br/><ins><br/>8. Disclosure of Artificial Intelligence Use<br/>Each party shall disclose any material use of AI systems in drafting or materially modifying this Agreement, including the use of AI to generate contractual language.<br/></ins></div>
+    </section>
+  </main>
+</body>
+</html>
