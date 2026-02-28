@@ -1,5 +1,7 @@
 ﻿﻿# Agentic AI Contract Amendment System (Azure Hybrid Architecture)
 
+Redline Demo: https://raw.githack.com/FeatherlessPenguin/agentic-ai-contract-amendment-azure/main/api/redline_demo.html
+
 ## Overview
 Hybrid multi-agent system that drafts contract amendments using Ontario + Federal Canadian law snippets (curated corpus) and a hypothetical AI disclosure requirement.
 
