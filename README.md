@@ -14,6 +14,8 @@ Hybrid multi-agent system that drafts contract amendments using Ontario + Federa
 6) Patch application (deterministic)
 7) Redline side-by-side diff (deterministic)
 
+  ![Agent_Flow](./documentation/aaca_flow.png)
+
 ## Tech Stack (target)
 - Azure Functions (API)
 - Azure AI Search (Free tier)
