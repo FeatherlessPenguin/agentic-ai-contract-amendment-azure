@@ -21,5 +21,7 @@ Hybrid multi-agent system that drafts contract amendments using Ontario + Federa
 - Static Web Apps (UI)
 - Hybrid agent orchestration (Planner + Clause Agents + Reviewer)
 
+  ![Architecture](./documentation/Azure_Hybrid_Agentic_Architecture.png)
+
 ## Disclaimer
 For demonstration only. Not legal advice. Includes a *hypothetical* AI disclosure requirement.
